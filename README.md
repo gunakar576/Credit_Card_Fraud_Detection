@@ -3,15 +3,15 @@ Credit Card Fraud Detection is a classic and critical application of machine lea
 ## Overview
 Credit card fraud occurs when someone uses your card or card details to make unauthorized purchases or withdrawals. Since fraudulent transactions are rare compared to legitimate ones, detecting them poses unique challenges.
 ## Goals of Fraud Detection
-Identify fraudulent transactions as early as possible.
+# Identify fraudulent transactions as early as possible.
 
-Minimize false positives (flagging legitimate transactions as fraud).
+# Minimize false positives (flagging legitimate transactions as fraud).
 
-Minimize false negatives (missing actual fraud).
+# Minimize false negatives (missing actual fraud).
 
 Improve real-time detection.
 
-##Steps in Fraud Detection Using Machine Learning
+## Steps in Fraud Detection Using Machine Learning
 1. Data Collection
 Transaction history (amount, time, location)
 

@@ -13,13 +13,13 @@ Credit card fraud occurs when someone uses your card or card details to make una
 
 ## Steps in Fraud Detection Using Machine Learning
 - **1. Data Collection**
-Transaction history (amount, time, location)
+- Transaction history (amount, time, location)
 
-Customer data (account age, past transactions)
+- Customer data (account age, past transactions)
 
-Device information
+- Device information
 
-Labels: Fraudulent or not
+- Labels: Fraudulent or not
 
 2. Data Preprocessing
 Handling class imbalance (fraud cases are rare)

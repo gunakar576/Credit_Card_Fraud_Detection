@@ -21,52 +21,26 @@ Credit card fraud occurs when someone uses your card or card details to make una
 
 - Labels: Fraudulent or not
 
-2. Data Preprocessing
-Handling class imbalance (fraud cases are rare)
+**2. Data Preprocessing**
+- Handling class imbalance (fraud cases are rare)
 
-Feature engineering (e.g., time since last transaction)
+- Feature engineering (e.g., time since last transaction)
 
-Normalization/Scaling
+- Normalization/Scaling
 
-Encoding categorical variables
+**3. Exploratory Data Analysis (EDA)**
+- Analyze patterns in fraud vs. non-fraud
 
-3. Exploratory Data Analysis (EDA)
-Analyze patterns in fraud vs. non-fraud
+- Visualizations (e.g., histograms, time series)
 
-Visualizations (e.g., histograms, time series)
+- Correlation heatmaps
 
-Correlation heatmaps
+**4. Model Building**
+- Common models include:
 
-4. Model Building
-Common models include:
+- Logistic Regression
 
-Logistic Regression
+**5. Evaluation Metrics**
+- accuracy_score
 
-Decision Trees / Random Forests
-
-Gradient Boosting (XGBoost, LightGBM)
-
-Neural Networks
-
-Isolation Forest / One-Class SVM (for anomaly detection)
-
-5. Evaluation Metrics
-Accuracy is misleading due to imbalance
-
-Prefer:
-
-Precision
-
-Recall
-
-F1 Score
-
-ROC-AUC
-
-6. Dealing with Class Imbalance
-Oversampling (SMOTE)
-
-Undersampling
-
-Cost-sensitive learning
 
